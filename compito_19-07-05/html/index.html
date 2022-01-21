@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>Esercizio HTML</title>
+   <link href="esercizio_css.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <h1>Prenotazione Ombrellone</h1>
+    <form>
+      <fieldset>
+        <legend>Campi Personali</legend>
+        <p><label>Nome <input type="text" placeholder="Nome"/></label></p>
+        <p><label>Cognome <input type="text" placeholder="Cognome"/></label></p>
+        <p><label>Numero di lettini <input type="number" min="1" max="100" name="lettino"/></label></p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Privacy policy</legend>
+        <label><input type="checkbox" name="policy1" value="policy1">Ho preso visione della privacy policy ed acconsento al trattamento dei dati</label>
+        <label><input type="checkbox" name="policy2" value="policy2">Iscriversi alla newsletter</label>
+      </fieldset>
+      <input class="bottone" type="reset" value="Cancella Form"/>
+      <input class="bottone" type="submit" value="Prenota il tuo ombrellone"/>
+    </form>
+  </body>
+</html>

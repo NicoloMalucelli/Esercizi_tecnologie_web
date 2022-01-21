@@ -1,0 +1,45 @@
+body
+{
+  font-size: 100%;
+  font-family: sans-serif;
+}
+
+header#site_header {
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
+  width: 100%;
+  margin: 2% 0px;
+  padding: 2% 0px;
+  margin-bottom: 50px;
+  color: white;
+  border-top: 2px black solid;
+  border-bottom: 2px black solid;
+  background-color: green;
+}
+
+p {
+  text-align: left;
+  color: black;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: lightgrey}
+
+th {
+    background-color: green;
+    color: white;
+}

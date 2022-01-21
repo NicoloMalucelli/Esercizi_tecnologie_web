@@ -1,0 +1,46 @@
+body
+{
+  font-size: 100%;
+  font-family: sans-serif;
+}
+
+h2
+{
+  font-size: 140%;
+  color: green;
+  text-shadow: 2px 2px 5px lightgreen;
+  padding-left: 50px;
+  font-style: italic;
+}
+
+h1 {
+  font-size: 180%;
+  font-weight: bolder;
+  text-align: center;
+  width: 92%;
+  margin: 2%;
+  padding: 2%;
+  margin-bottom: 50px;
+  color: green;
+  display: block;
+  border-radius: 15px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: green;
+  background-color: lightgreen;
+}
+
+p {
+  text-align: left;
+  color: black;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul li {
+  list-style-type: square;
+}
+
+div.center {
+  text-align: center;
+  }

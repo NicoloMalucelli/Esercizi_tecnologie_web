@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link href="esercizio_css.css" rel="stylesheet" type="text/css"/>
+ <title>Esercizio CSS</title>
+</head>
+<body>
+
+<header><h1>Form</h1></header>
+<section>
+  <form action="/action_page.php">
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username" placeholder="Username">
+
+    <label for="pswd">Password</label>
+    <input type="password" id="pswd" name="pswd" placeholder="Password">
+
+
+    <fieldset>
+      <legend>Gender:</legend>
+      <p><label for="female"><input type="radio" name="female" id="female" value="female" >Female</label></p>
+      <p><label for="male"><input type="radio" name="male" id="male" value="male">Male</label></p>
+      <p><label for="other"><input type="radio" name="other" id="other" value="other" checked>I'd prefer not to specify</label></p>
+    </fieldset>
+
+
+    <input type="reset" value="Reset"/>
+    <input type="submit" value="Submit"/>
+  </form>
+
+</section>
+</body>
+</html>

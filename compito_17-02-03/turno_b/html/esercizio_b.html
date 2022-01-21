@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<meta charset="utf-8">
+	<title>Acquisto merchandise sprite</title>
+</head>
+<body>
+	<form  action="Esercizio1.html" method="post">
+		<fieldset>
+			<legend>Caratteristiche della maglia</legend>
+			<label for="modello">Modello:</label>
+			<select name="modello" id="modello">
+				<option value="tshirt">tshirt</option>
+				<option value="hoodie">hoodie</option>
+				<option value="Sweater">Sweater</option>
+			</select><br/>
+			<label for="colore">Colore:</label>
+			<input type="color" name="colore" id="colore"><br/>
+			<label for="taglia">Taglia:</label>
+			<select name="taglia" id="taglia">
+				<option value="xs">XS</option>
+				<option value="s">S</option>
+				<option value="m">M</option>
+				<option value="l">L</option>
+				<option value="xl">XL</option>
+			</select><br/>
+			<label for="numero">Numero:</label>
+			<input type="number" name="numero" id="numero" min="1" max="10"><br/>
+		</fieldset>
+		<fieldset>
+			<legend>Spedizione</legend>
+			<label for="nome">Nome:</label>
+			<input type="text" name="nome" id="nome"><br/>
+			<label for="cognome" >cognome:</label>
+			<input type="text" name="cognome" id="cognome"><br/>
+			<label for="via">Via:</label>
+			<input type="text" name="via" id="via"><br/>
+			<label for="città">Città:</label>
+			<input type="text" name="città" id="città"><br/>
+		</fieldset>
+		<input type="submit" name="name" value="Invia">
+	</form>
+
+</body>
+</html>

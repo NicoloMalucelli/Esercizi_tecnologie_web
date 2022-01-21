@@ -1,0 +1,72 @@
+body
+{
+  font-size: 120%;
+  font-family: sans-serif;
+}
+
+header#site_header {
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
+  width: 92%;
+  margin: 2%;
+  padding: 2%;
+  margin-bottom: 50px;
+  color: black;
+  text-shadow: 5px 5px 3px orange;
+  display: block;
+  border-radius: 25px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: orange;
+  background-color: yellow;
+}
+
+p {
+  text-align: left;
+  color: black;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+table {
+  border: 5px solid orange;
+  border-radius: 25px;
+  background-color: white;
+  padding: 2%;
+  margin-left: 5%;
+  width: 90%;
+}
+
+td {
+  border: 3px solid orange;
+  padding: 5px;
+  text-align: left;
+  background-color: white;
+}
+
+th {
+  border: 3px solid orange;
+  background-color: orange;
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+tfoot td {
+  background-color: yellow;
+  text-align: center;
+  font-style: italic;
+  font-size: 24px;
+  color: black;
+  text-shadow: 5px 5px 5px orange;
+}
+
+tfoot th{
+  background-color: yellow;
+  text-align: center;
+  font-style: italic;
+  font-size: 24px;
+  color: black;
+  text-shadow: 5px 5px 5px orange;
+}

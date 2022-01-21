@@ -1,0 +1,4 @@
+Il grafico mostra il numero delle immatricolazioni nell'AA 2015-2016. In particolare si nota che:
+- alla facoltà di architettura (blu) ci sono 13057 studenti iscritti al corso di laurea, 2256 iscritti ad un corso di laurea magistrale a ciclo unico e 6461 sono iscritti alla laurea magistrale
+- alla facoltà di ingegneria (rosso) ci sono 12947 studenti iscritti al corso di laurea, 2532 iscritti ad un corso di laurea magistrale a ciclo unico e 6962 sono iscritti alla laurea magistrale
+- alla facoltà di scienze (verde) ci sono 13744 studenti iscritti al corso di laurea, 2192 iscritti ad un corso di laurea magistrale a ciclo unico e 7106 sono iscritti alla laurea magistrale

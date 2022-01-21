@@ -1,0 +1,98 @@
+body
+{
+  font-size: 100%;
+  font-family: sans-serif;
+  background-color: green;
+  color: white;
+}
+
+header#site_header, aside, nav, footer{
+	border: 1px solid darkgreen;
+	border-radius: 20px 5px 20px 5px;
+	box-shadow: 10px -10px 10px darkgreen;
+	background: linear-gradient(to right, white 70%, lightgreen, yellow);
+}
+
+header#site_header {
+  font-size: 200%;
+  font-weight: bolder;
+  text-align: center;
+  width: 96%;
+  margin: 1%;
+  padding: 1%;
+  margin-bottom: 0px;
+  color: darkgreen;
+}
+
+header.article_header {
+  text-align: center;
+  font-size: 150%;
+  color: lightgreen;
+  font-weight: bolder;
+}
+
+header.section_header {
+  text-align: center;
+  font-size: 180%;
+  font-weight: bolder;
+  color: lightgreen;
+  margin-bottom: 2%;
+}
+
+p {
+  text-align: left;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+nav {
+  width: 96%;
+  margin: 0 1% 1%;
+  padding: 1%;
+}
+
+ul#nav_list{
+    margin: 0;
+}
+
+ul#nav_list li{
+   display: inline;
+   list-style-type: square;
+}
+
+ul#nav_list li a {
+  color: darkgreen;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+ul#nav_list li a:hover {
+  color: white;
+  background-color: darkgreen;
+  text-decoration: underline;
+}
+
+aside {
+  float: right;
+  color: darkgreen;
+  width: 20%;
+  margin: 1%;
+  font-size: 90%;
+  padding: 1%;
+}
+
+section{
+  width: 68%;
+  margin: 1% 23% 1% 1%;
+  padding-left: 3%;
+}
+
+footer {
+text-align: center;
+font-size: 80%;
+color: darkgreen;
+width: 95%;
+clear: both;
+padding: 1%;
+margin: 1%;
+}

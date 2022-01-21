@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Esercizio 1</title>
+    <style>
+    table, th, td {
+      border: 1px double black;
+    }
+    th, td {
+      padding: 5px;
+      text-align: left;
+    }
+</style>
+  </head>
+
+  <body>
+    <table>
+      <caption>Vendita Magliette Sprite</caption>
+        <tr>
+          <th id="taglia">taglia</th>
+          <th id="XS">XS</th>
+          <th id="S">S</th>
+          <th id="M">M</th>
+          <th id="L">L</th>
+          <th id="XL">XL</th>
+        </tr>
+        <tr>
+          <th id="tshirt">T-shirt</th>
+          <td headers="tshirt XS">10</td>
+          <td headers="tshirt S">20</td>
+          <td headers="tshirt M">30</td>
+          <td headers="tshirt L">40</td>
+          <td headers="tshirt XL">20</td>
+        </tr>
+        <tr>
+          <th id="hoodie">hoodie</th>
+          <td colspan="2" headers="hoodie XS S">20</td>
+          <td headers="hoodie M">30</td>
+          <td colspan="2" headers="tshirt L XL">20</td>
+        </tr>
+        <tr>
+          <th id="sweater">sweater</th>
+          <td colspan="2" headers="sweater XS S">10</td>
+          <td headers="sweater M">20</td>
+          <td colspan="2" headers="sweater L XL">10</td>
+
+        </tr>
+    </table>
+  </body>
+
+</html>

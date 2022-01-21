@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link href="esercizio_css.css" rel="stylesheet" type="text/css"/>
+ <title>Esercizio CSS</title>
+</head>
+<body>
+
+<header><h1>Modulo di iscrizione</h1></header>
+<section>
+  <form action="/action_page.php">
+    <label for="nome">Nome</label>
+    <input type="text" id="nome" name="nome" placeholder="Nome">
+
+    <label for="cognome">Cognome</label>
+    <input type="text" id="cognome" name="cognome" placeholder="Cognome">
+
+
+    <fieldset>
+      <legend>Nazione:</legend>
+      <p><label for="italia"><input type="radio" name="nazione" id="italia" value="italia" checked>Italia</label></p>
+      <p><label for="sanmarino"><input type="radio" name="nazione" id="sanmarino" value="sanmarino">San Marino</label></p>
+      <p><label for="vaticano"><input type="radio" name="nazione" id="vaticano" value="vaticano">Città del Vaticano</label></p>
+    </fieldset>
+
+
+    <input type="reset" value="Cancella"/>
+    <input type="submit" value="Invia"/>
+  </form>
+
+</section>
+</body>
+</html>

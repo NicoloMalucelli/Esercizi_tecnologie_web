@@ -1,0 +1,25 @@
+La proposta di una nuova versione per lo standard HTML in seguito la 4.1 venne inizialmente mossa nei confronti del W3C da parte di Firefox e Opera.
+Il W3C tuttavia, al tempo impegnato sulla evoluzione di XML e XHTML, rifiutò apertamente l'iniziativa.
+Come diretta conseguenza, si venne a creare nel 2004 un'organizzazione finanziata da varie società software, col nome di WHATWG.
+Il WHAT WG lavorò intensamente non solo su HTML ma prese infatti in considerazione anche gli script, il css ecc.
+Dopo 2 anni, il W3C dovette ammettere l'importanza del lavoro svolto dal WHATWG e unì ai loro componenti anche i membri dei propri workgroup.
+Nacque così HTML5.
+
+Oggi il WHAT WG è continuamente al lavoro sull'evoluzione e sul miglioramento di HTML5 e ha considerato esso un "living standard" (standard vivente): nuove feature possono essere introdotte e vecchie funzionalità possono essere rimosse in qualsiasi momento.
+Il fatto quindi che non si riesca a giungere a una versione definitiva dello standard viene visto come una feature e non un bug.
+Il "WHATWG HTML5 Living Standard" è stato pubblicato nel 2012 ed è continuamente aggiornato.
+
+HTML5 rappresenta una vera evoluzione rispetto alla precedente versione.
+HTML5 ha introdotto:
+- nuovi elementi semantici (come <header>, <footer>, <article> e <section>)
+- nuovi tipi di input per quanto concerne i form (come <number>, <date>, <range>)
+- nuovi elmenti grafici (come i canvas)
+- nuovi elementi multimediali (come <audio> e <video>)
+Questo ultimo aspetto, in particolare, è uno dei principali motivi che ha visto nel tempo l'abbandono di flash. Dopo la sua introduzione, infatti, YouTube ha proprio deciso di ricorrere a HTML5 per la riproduzione dei propri contenuti multimediali.
+
+HTML5 ha anche introdotto nuove API, come quelle inerenti
+- la geolocalizzazione
+- il drag and drop
+- lo storage locale
+
+HTML5 ha anche rimosso alcuni elementi presenti in HTML4 (<dir>, <font>, <center>...), molti dei quali sono stati delegati a CSS (la cui ultima versione è la 3).

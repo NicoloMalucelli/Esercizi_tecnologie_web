@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<meta charset="utf-8">
+	<title> Esercizio HTML </title>
+</head>
+<body>
+	<form method="get">
+		<fieldset>
+			<legend>Campi anagrafica</legend>
+			<p><label>Nome:<input type="text" autocomplete="on" name="nome" required /></label></p>
+			<p><label>Cognome:<input type="text" autocomplete="on" name="cognome" required /></label></p>
+			<p><label>Email:<input type="email" autocomplete="on" name="email" />
+			</label></p>
+			<p><label>Data di nascita:<input type="date" autocomplete="on" name="data_di_nascita" required /></label></p>
+			<input type="submit" value="Submit" />
+		</fieldset>
+		<br/>
+		<fieldset>
+			<legend>Colore e fiore preferito</legend>
+			<p><label>Colore preferito:<input type="color" name="colore_preferito" /></label></p>
+			<label>Scegli un fiore<select size="3">
+				<option value="azalea">Azalea</option>
+				<option value="begonia">Begonia</option>
+				<option value="camelia">Camelia</option>
+				<option value="dalia">Dalia</option>
+				<option value="fiordaliso">Fiordaliso</option>
+				<option value="garofano">Garofano</option>
+				<option value="rosa">Rosa</option>
+				<option value="tulipano">Tulipano</option>
+			</select>
+			</label>
+		</fieldset>
+		<input type="submit" value="Submit" />
+	</form>
+</body>
+</html>

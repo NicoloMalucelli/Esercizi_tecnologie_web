@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link href="esercizio_css.css" rel="stylesheet" type="text/css"/>
+ <title>Esercizio HTML e CSS</title>
+</head>
+<body>
+<h1>Iscrizione alla caccia al tesoro</h1>
+<form>
+  <fieldset>
+  <legend>Informazioni della squadra</legend>
+  <p><label>Nome della squadra <input type="text" placeholder="nome squadra"/></label></p>
+  <p><label>Numero della squadra <input type="number" min="1" max="10"/></label></p>
+  <p><label>Colore della squadra <input type="color" name="colore"/></label></p>
+
+</fieldset>
+<fieldset>
+  <legend>Membri della squadra</legend>
+  <ol>
+    <li><label>Nome Primo partecipante <input type="text" name="nome1" placeholder="nome"/></label>
+<label>Ruolo Primo partecipante:
+    <input list="ruoli1">
+    <datalist id= "ruoli1">
+      <option value="1"> Caposquadra </option>
+      <option value="2"> Segretario </option>
+      <option value="3"> Cercatore </option>
+    </datalist>
+  </label>
+</li>
+  <li><label>Nome Secondo partecipante <input type="text" name="nome2" placeholder="nome"/></label>
+<label>Ruolo Secondo partecipante:
+  <input list="ruoli2">
+  <datalist id= "ruoli2">
+    <option value="1"> Caposquadra </option>
+    <option value="2"> Segretario </option>
+    <option value="3"> Cercatore </option>
+  </datalist>
+</label>
+</li>
+  <li><label>Nome Terzo partecipante <input type="text" name="nome3" placeholder="nome"/></label>
+<label>Ruolo Terzo partecipante:
+  <input list="ruoli3">
+  <datalist id= "ruoli3">
+    <option value="1"> Caposquadra </option>
+    <option value="2"> Segretario </option>
+    <option value="3"> Cercatore </option>
+  </datalist>
+</label>
+</li>
+</ol>
+</fieldset>
+  <input class="bottone" type="reset" value="Cancella Form"/>
+  <input class="bottone" type="submit" value="Iscrivi la tua squadra"/>
+
+</form>
+</body>
+</html>

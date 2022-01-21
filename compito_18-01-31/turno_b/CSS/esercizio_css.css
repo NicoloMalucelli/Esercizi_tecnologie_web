@@ -1,0 +1,83 @@
+body
+{
+  font-size: 100%;
+  font-family: sans-serif;
+}
+
+header {
+  text-align: center;
+  width: 96%;
+  margin: 0px;
+  padding: 1% 2% 1% 2%;
+  color: white;
+  background: red;
+  display: block;
+  border-radius: 5px;
+
+}
+
+p {
+  text-align: left;
+  color: black;
+}
+
+section{
+  display: block;
+  width: 100%;
+  float: left;
+  padding: 1% 0px 1% 0px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+
+fieldset label {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 3px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+fieldset label:hover {
+    width: 100%;
+    padding: 3px 5px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=submit], input[type=reset] {
+    width: 48%;
+    background-color: red;
+    display: inline;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: pink;
+    color: black;
+    font-weight: bold;
+}
+
+input[type=reset]:hover {
+    background-color: pink;
+    font-weight: bold;
+        color: black;
+}

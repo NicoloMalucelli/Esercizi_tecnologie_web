@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Mio sito</title>
+	<script src="jquery-1.11.3.min.js" type="text/javascript"></script>
+	<script src="soluzione.js" type="text/javascript"></script>
+	<style>
+		div.progress {
+			position: relative;
+			display: block;
+			max-width: 100%;
+			border: none;
+			margin: 1em 0 2.5em;
+			box-shadow: none;
+			background: rgba(0,0,0,.1);
+			padding: 0;
+			border-radius: .28571429rem;
+			height: 20px;
+		}
+
+		div.progress .bar {
+			display: block;
+			line-height: 1;
+			position: relative;
+			width: 0;
+			height: 20px;
+			background: #888;
+			border-radius: .28571429rem;
+			-webkit-transition: width .1s ease,background-color .1s ease;
+			transition: width .1s ease,background-color .1s ease;
+			height: 20px;
+		}
+		div.popup{
+			width: 95%;
+			height: 600px;
+			border: 1px solid #000;
+			position: absolute;
+			top: 10px;
+			background-color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Esercizio javascript/jQuery</h1>
+	</header>
+	<main>
+		<h2>Loading</h2>
+		<div class="progress">
+			<div class="bar">
+				<div class="progress"></div>
+			</div>
+		</div>
+		<div>
+			<button>+</button>
+			<button>-</button>
+		</div>
+		<div class="popup">Loading Complete <button>close</button></div>
+	</main>
+</body>
+</html>

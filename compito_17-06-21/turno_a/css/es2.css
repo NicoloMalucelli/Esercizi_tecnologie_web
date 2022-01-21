@@ -1,0 +1,37 @@
+body {
+  font-size: 100%;
+  font-family: Arial, sans-serif;
+}
+
+table, th, td {
+  border: 1px solid blue;
+}
+
+table {
+  border-radius: 15px;
+  padding: 8px;
+}
+
+th, td {
+  padding: 4px;
+}
+
+thead th {
+  background-color: blue;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+}
+
+tbody td {
+  text-align: right;
+}
+
+tfoot {
+  background-color: orange;
+  text-shadow: 3px 3px 5px blue;
+  font-size: 110%;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: center;
+}

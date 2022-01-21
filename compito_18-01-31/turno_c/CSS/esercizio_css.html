@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link href="esercizio_css.css" rel="stylesheet" type="text/css"/>
+ <title>Esercizio CSS</title>
+</head>
+<body>
+
+<header><h1>Form</h1></header>
+<section>
+  <form action="/action_page.php">
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username" placeholder="Username">
+
+    <label for="pswd">Password</label>
+    <input type="password" id="pswd" name="pswd" placeholder="Password">
+
+
+    <fieldset>
+      <legend>Means of transports:</legend>
+      <p><input type="checkbox" name="transports" id="bike" value="bike"><label for="bike">Bike</label></p>
+      <p><input type="checkbox" name="transports" id="car" value="car"><label for="car">Car</label></p>
+      <p><input type="checkbox" name="transports" id="bus" value="bus"><label for="bus">Bus</label></p>
+      <p><input type="checkbox" name="transports" id="train" value="train"><label for="train">Train</label></p>
+
+    </fieldset>
+
+
+    <input type="reset" value="Reset"/>
+    <input type="submit" value="Submit"/>
+  </form>
+
+
+</section>
+</body>
+</html>

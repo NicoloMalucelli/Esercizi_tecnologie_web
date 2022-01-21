@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Esame HTML 1516</title>
+</head>
+
+<body>
+  <main>
+    <table>
+      <caption>Caption per la tabella</caption>
+      <thead>
+        <tr>
+          <th></th>
+          <th id="giorno_lun">Lunedì</th>
+          <th id="giorno_mar">Martedì</th>
+          <th id="giorno_mer">Mercoledì</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th id="ora_9_10">9-10</th>
+          <td rowspan="2" headers="giorno_lun ora_9_10 ora_10_11">Tecnologie Web</td>
+          <td headers="giorno_mar ora_9_10">Analisi</td>
+          <td rowspan="2" headers="giorno_mer ora_9_10 ora_10_11">Sistemi multimediali</td>
+        </tr>
+        <tr>
+          <th id="ora_10_11">10-11</th>
+          <td rowspan="2" headers="giorno_mar ora_10_11 ora_11_12 ">Sistemi multimediali</td>
+        </tr>
+        <tr>
+          <th id="ora_11_12">11-12</th>
+          <td headers="giorno_lun ora_11_12">Algebra</td>
+          <td headers="giorno_mer ora_11_12">Fisica</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+
+</body>
+
+</html>

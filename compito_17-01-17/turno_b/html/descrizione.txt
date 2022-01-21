@@ -1,0 +1,7 @@
+Dal grafico relativo alla composizione dei/delle Laureati/e per
+genere e classe di voto di laurea, si evince che:
+Il 21% degli uomini ed il 24% delle donne si sono laureati/e con 110 e lode
+Il 18% degli uomini ed il 22% delle donne si sono laureati/e con un voto compreso tra 106 e 110
+Il 17% degli uomini ed il 19% delle donne si sono laureati/e con un voto compreso tra 101 e 105
+Il 28% degli uomini ed il 25% delle donne si sono laureati/e con un voto compreso tra 91 e 100
+Il 15% degli uomini ed il 10% delle donne si sono laureati/e con un voto compreso tra 66 e 90

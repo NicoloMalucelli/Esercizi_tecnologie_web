@@ -1,0 +1,61 @@
+body
+{
+  font-size: 120%;
+  font-family: sans-serif;
+}
+
+header#site_header {
+  font-size: 180%;
+  font-weight: bolder;
+  text-align: center;
+  width: 94%;
+  margin: 1%;
+  padding: 1%;
+  color: white;
+  background-color: darkblue;
+  box-shadow: 10px -10px 5px blue;
+}
+
+header.article_header {
+  text-align: center;
+  font-size: 130%;
+  color: blue;
+  font-weight: bolder;
+}
+
+header.section_header {
+  text-align: center;
+  font-size: 150%;
+  color: blue;
+  margin-bottom: 2%;
+}
+
+nav {
+  width: 10%;
+  float: right;
+  margin: 1%;
+  padding: 1%;
+  margin-right: 3%;
+  border: 2px solid darkblue;
+  box-shadow: 10px -10px 5px blue;
+}
+
+ul#nav_list li a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+ul#nav_list li a:hover {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+ul#nav_list li a:visited {
+  font-weight: normal;
+  text-decoration: none;
+}
+
+section{
+  width: 80%;
+  margin: 1% 16% 1% 1%;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <title>Esercizio HTML</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>Esercizo html</h1>
+        <table>
+          <thead>
+            <tr>
+              <th scope="col" id="hour"></th>
+              <th scope="col" id="mer">mercoledi</th>
+              <th scope="col" id="gio">giovedi</th>
+              <th scope="col" id="ven">venerdi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" id ="9-11" headers="hour">9-11</th>
+              <td headers="9-11 mer">Lezione</td>
+              <td rowspan="2" headers="9-11 11-13 gio">Senato Accademico</td>
+              <td headers="9-11 ven">Consiglio di amministrazione</td>
+            </tr>
+            <tr>
+              <th scope="row" id ="11-13" headers="hour">9-13</th>
+              <td headers="11-13 mer">Riunione progetto</td>
+              <td rowspan="2" headers="11-13 13-14 ven">Audizioni</td>
+            </tr>
+            <tr>
+              <th scope="row" id ="13-14" headers="hour">13-14</th>
+              <td headers="13-14 mer">Ricevimento</td>
+              <td headers="13-14 gio">Lezione</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+
+</html>

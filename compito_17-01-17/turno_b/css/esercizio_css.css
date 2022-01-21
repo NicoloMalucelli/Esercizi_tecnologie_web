@@ -1,0 +1,72 @@
+body
+{
+  font-size: 100%;
+  font-family: sans-serif;
+}
+
+header#site_header {
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
+  width: 92%;
+  margin: 2%;
+  padding: 2%;
+  margin-bottom: 50px;
+  color: white;
+  text-shadow: 5px 5px 3px blue;
+  display: block;
+  border-radius: 15px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: blue;
+  background-color: lightblue;
+}
+
+p {
+  text-align: left;
+  color: black;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+table {
+  border: 5px solid blue;
+  border-radius: 15px;
+  background-color: white;
+  padding: 1%;
+  margin-left: 5%;
+  width: 90%;
+}
+
+td {
+  border: 5px solid blue;
+  padding: 5px;
+  text-align: left;
+  background-color: white;
+}
+
+th {
+  border: 5px solid blue;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+tfoot td {
+  background-color: lightblue;
+  text-align: center;
+  font-style: italic;
+  font-size: 24px;
+  color: black;
+  text-shadow: 5px 5px 5px blue;
+}
+
+tfoot th{
+  background-color: lightblue;
+  text-align: center;
+  font-style: italic;
+  font-size: 24px;
+  color: black;
+  text-shadow: 5px 5px 5px blue;
+}

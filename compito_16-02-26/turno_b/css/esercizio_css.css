@@ -1,0 +1,90 @@
+body
+{
+  font-size: 100%;
+  font-family: sans-serif;
+  background-color: orange;
+  color: white;
+}
+
+header#site_header, nav, aside, footer{
+	border: 2px solid red;
+	border-radius: 5px 30px 5px 30px;
+	box-shadow: 15px 15px 10px darkorange;
+	background: linear-gradient(to right, white 70%, pink, magenta);
+}
+
+header#site_header {
+  font-size: 200%;
+  font-weight: bolder;
+  text-align: center;
+  width: 96%;
+  margin: 1% 1% 0;
+  padding: 1%;
+  color: darkorange;
+}
+
+header.article_header {
+  text-align: center;
+  font-size: 150%;
+  color: red;
+  font-weight: bolder;
+}
+
+header.section_header {
+  text-align: center;
+  font-size: 180%;
+  font-weight: bolder;
+  color: red;
+  margin-bottom: 2%;
+}
+
+nav {
+  width: 96%;
+  margin: 0 1% 1%;
+  padding: 1%;
+}
+
+ul#nav_list {
+	margin: 0;
+}
+
+ul#nav_list li{
+   display: inline;
+   text-align: center;
+   list-style-type: none;
+}
+
+ul#nav_list li a {
+  color: red;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+ul#nav_list li a:hover {
+  color: white;
+  background-color: red;
+  text-decoration: underline;
+}
+
+aside {
+  float: right;
+  color: red;
+  width: 20%;
+  margin: 1%;
+  font-size: 90%;
+  padding: 1%;
+}
+
+section{
+  width: 70%;
+  margin: 1% 29% 1% 1%;
+}
+
+footer {
+text-align: center;
+font-size: 80%;
+color: red;
+width: 58%;
+padding: 1% 20%;
+margin: 1%;
+}

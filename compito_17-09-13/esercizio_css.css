@@ -1,0 +1,109 @@
+body
+{
+  font-size: 120%;
+  font-family: sans-serif;
+}
+
+header#site_header {
+  font-size: 180%;
+  font-weight: bolder;
+  border-style: solid;
+  border-color: purple;
+  text-align: center;
+  width: 95%;
+  margin-top: 1%;
+  margin-bottom: 0%;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding: 1%;
+  border-radius: 20px;
+  color: purple;
+  display: block;
+}
+
+header.article_header {
+  text-align: center;
+  font-size: 130%;
+  color: purple;
+  font-weight: bolder;
+  display: block;
+}
+
+header.section_header {
+  display: block;
+  text-align: center;
+  font-size: 150%;
+  color: purple;
+  margin-bottom: 2%;
+}
+
+p {
+  text-align: left;
+  color: black;
+  text-shadow: none;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+nav {
+  width: 95%;
+  margin-top: 0%;
+  margin-bottom: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding: 1%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  text-align: center;
+
+  display: block;
+}
+
+
+ul#nav_list li{
+  display: inline;
+}
+
+ul#nav_list li a {
+  color: blue;
+  text-decoration: none;
+}
+
+
+ul#nav_list li a:visited {
+  color: purple;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+ul#nav_list li a:hover {
+  color: white;
+  background-color: purple;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+aside {
+  float: left;
+  width: 17%;
+  margin: 1%;
+  font-size: 90%;
+  display: block;
+  color: purple;
+}
+
+section{
+  float: right;
+  width: 77%;
+  margin: 1%;
+  display: block;
+}
+
+
+footer {
+  text-align: center;
+  font-size: 80%;
+  color: purple;
+display: block;
+clear: both;
+}

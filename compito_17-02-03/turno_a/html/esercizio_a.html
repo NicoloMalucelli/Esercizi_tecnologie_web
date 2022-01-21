@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<meta charset="utf-8">
+	<title>esercizio html</title>
+</head>
+<body>
+    <form action="index.html" method="post">
+		<fieldset>
+			<legend>Campi Anagrafici</legend>
+			<label>Nome: <input type="text" name="nome"></label><br/>
+			<label>Cognome: <input type="text" name="cognome"></label><br/>
+			<label>Matricola: <input type="number" name="matricola"></label><br/>
+			<label>Email: <input type="email" name="email"></label><br/>
+			<label>Gruppo: <input type="number" name="gruppo" min="1" max="30"></label><br/>
+		</fieldset>
+		<fieldset>
+			<legend>Campi Esame</legend>
+			<label>Data: <input type="date" name="data"></label><br/>
+			<label>Tipologia: <select name="tipologia">
+				<option value="scritto">Scritto</option>
+				<option value="orale">Orale</option>
+			</select></label><br/>
+			<input type="submit" value="Submit">
+		</fieldset>
+
+    </form>
+  </body>
+</html>

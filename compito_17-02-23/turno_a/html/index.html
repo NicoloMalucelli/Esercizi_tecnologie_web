@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <title>Tabella</title>
+<style>
+table, th, td {
+    border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th id="inq" scope="rowgroup">inquadramento</th>
+    <th id="pers" scope="colgroup">personale</th>
+    <th id="num" scope="colgroup">numero</th>
+  </tr>
+  <tr>
+    <th rowspan="2" id="uom" scope="row">uomini</th>
+    <th id="doc" scope="row">docente</th>
+    <td headers="num uom doc">1.696</td>
+  </tr>
+  <tr>
+    <th id="ta" scope="row">ta</th>
+    <td headers="num uom ta">1.046</td>
+  </tr>
+  <tr>
+    <th rowspan="2" id="don" scope="row">donne</th>
+    <th id="doc2" scope="row">docente</th>
+    <td headers="num don doc2">1.696</td>
+  </tr>
+  <tr>
+    <th id="ta2" scope="row">ta</th>
+    <td headers="num don ta2">1.046</td>
+  </tr>
+</table>
+
+</body>
+</html>

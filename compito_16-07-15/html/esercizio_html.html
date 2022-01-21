@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="esercizio_css.css" rel="stylesheet" type="text/css"/>
+	<title>Esercizio HTML</title>
+</head>
+<body>
+	<img alt="" src="smartphone.png"/>
+	<form method="get">
+		<fieldset>
+			<legend>Elementi Descrittivi</legend>
+			<p><label>Codice <input type="text" placeholder="Codice"/></label></p>
+			<p><label>Descrizione <input type="text" placeholder="Descrizione"/></label></p>
+			<p><label>Quantit&agrave; <input type="number" min="1" max="10"/></label></p>
+		</fieldset>
+		<fieldset>
+			<legend>Modello Telefono</legend>
+			<p><label>Tipo cellulare:
+				<input list="smartphones">
+				<datalist id= "smartphones">
+					<option value="1"> IPhone6 </option>
+					<option value="2"> Samsung Galaxy 7 </option>
+					<option value="3"> Huawei P9 </option>
+				</datalist>
+			</label></p>
+			<p><label>Colore <input type="color" name="color"/></label></p>
+			<input class="bottone" type="submit" value="Procedi all'acquisto"/>
+			<input class="bottone" type="reset" value="Svuota modulo di acquisto"/>
+		</fieldset>
+	</form>
+</body>
+</html>

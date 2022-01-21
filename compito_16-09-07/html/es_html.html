@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Test Tec Web</title>
+</head>
+<body>
+
+<main>
+	<section class="istruzioni" id="istrCompil">
+		<h3>Istruzioni Compilazione</h3>
+		
+		<section id="premessa">
+			<h4>Premessa</h4>
+		</section>
+		
+		<section id="utilizzoDati">
+			<h4>Utilizzo Dati</h4>
+		</section>
+	</section>
+
+	<section class="question" id="question">
+		<h3>Questionario</h3>
+		<form method="post" id="myForm">
+			<fieldset>
+				<legend>Dati studente</legend>
+				<label>Nome: <input id="nome" type="text" name="nome" required></label><br>
+				<label>Cognome: <input id="cognome" type="text" name="cognome" required></label><br>
+				<label>Et&agrave;: <input id="eta" type="number" name="eta" min="18" max="30" required></label><br>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Scelta corso laurea</legend>
+				<label>Scegli il corso: <select id="corso" name="corso">
+				  <option value="informatica">Informatica</option>
+				  <option value="informManag">Informatica per il management</option>
+				  <option value="ingScienze">Ingegneria informatica e Scienze</option>
+				  <option value="ingScienze">Ingegneria e scienze informatiche</option>
+				</select></label>
+			</fieldset>
+			
+			<input type="submit" id="invia" value="Invia">
+		</form>
+	</section>
+
+</main>
+</body>
+</html>

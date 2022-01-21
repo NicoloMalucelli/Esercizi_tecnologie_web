@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link href="esercizio_css.css" rel="stylesheet" type="text/css"/>
+ <title>Esercizio HTML e CSS</title>
+</head>
+<body>
+<h1>Iscrizione al campo estivo</h1>
+<form>
+  <fieldset>
+  <legend>Dati anagrafici</legend>
+  <p><label>Nome <input type="text" placeholder="nome"/></label></p>
+  <p><label>Cognome <input type="text" placeholder="cognome"/></label></p>
+  <p><label>Data di Nascita <input type="date" name="date"/></label></p>
+
+</fieldset>
+<fieldset>
+  <legend>Campo estivo</legend>
+  <ol>
+    <li>Prima settimana<br/>
+      <label>Inizio <input type="date" name="inizio1"/></label>
+      <label>Fine <input type="date" name="fine1"/></label>
+<label>Attività
+    <input list="attivita1">
+    <datalist id= "attivita1">
+      <option value="1"> Nuoto </option>
+      <option value="2"> Inglese </option>
+      <option value="3"> Scherma </option>
+      <option value="4"> Teatro </option>
+      <option value="5"> Disegno </option>
+    </datalist>
+  </label>
+</li>
+<li>Seconda settimana<br/>
+  <label>Inizio <input type="date" name="inizio2"/></label>
+  <label>Fine <input type="date" name="fine2"/></label>
+<label>Attività
+<input list="attivita2">
+<datalist id= "attivita2">
+  <option value="1"> Nuoto </option>
+  <option value="2"> Inglese </option>
+  <option value="3"> Scherma </option>
+  <option value="4"> Teatro </option>
+  <option value="5"> Disegno </option>
+</datalist>
+</label>
+</li>
+<li>Terza settimana <br/>
+  <label>Inizio <input type="date" name="inizio3"/></label>
+  <label>Fine <input type="date" name="fine3"/></label>
+<label>Attività
+<input list="attivita3">
+<datalist id= "attivita3">
+  <option value="1"> Nuoto </option>
+  <option value="2"> Inglese </option>
+  <option value="3"> Scherma </option>
+  <option value="4"> Teatro </option>
+  <option value="5"> Disegno </option>
+</datalist>
+</label>
+</li>
+</ol>
+</fieldset>
+<div class="center">
+  <input class="bottone" type="reset" value="Cancella Form"/>
+  <input class="bottone" type="submit" value="Iscrivi"/>
+</div>
+</form>
+</body>
+</html>

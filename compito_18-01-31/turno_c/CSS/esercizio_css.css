@@ -1,0 +1,95 @@
+body
+{
+  font-size: 100%;
+  font-family: sans-serif;
+}
+
+header {
+  text-align: center;
+  width: 96%;
+  margin: 0px;
+  padding: 1% 2% 1% 2%;
+  color: white;
+  background: magenta;
+  display: block;
+  border-radius: 15px 0px 15px 0px;
+}
+
+p {
+  text-align: left;
+  color: black;
+}
+
+p.dx{
+  text-align: right;
+}
+
+#pippo{
+  text-align: justify;
+  color: red;
+  background-color: #dddddd;
+  border-top: 2px dashed red;
+  border-left: 2px dashed red;
+  box-shadow: 5px 5px 10px gray;
+  padding: 30px 10px 50px 20px;
+  margin: 20px;
+}
+
+section{
+  display: block;
+  width: 100%;
+  float: left;
+  padding: 1% 0px 1% 0px;
+}
+
+input[type=text], input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid magenta;
+    border-radius: 15px 0px 15px 0px;
+    box-sizing: border-box;
+}
+
+input[type=checkbox]:checked+label {
+  background-color: magenta;
+  border-radius: 15px 0px 15px 0px;
+  color: white;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px 10px 5px 10px;
+  border: 2px dotted purple;
+}
+
+input[type=checkbox]+label {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px 10px 5px 10px;
+}
+
+input[type=submit], input[type=reset] {
+    width: 48%;
+    background-color: magenta;
+    display: inline;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 12px;
+    border: none;
+    border-radius: 15px 0px 15px 0px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: purple;
+    color: pink;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+input[type=reset]:hover {
+    background-color: purple;
+    color: pink;
+    font-weight: bold;
+    border-radius: 15px;
+}

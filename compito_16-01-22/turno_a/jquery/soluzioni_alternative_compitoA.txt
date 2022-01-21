@@ -1,0 +1,151 @@
+﻿$(document).ready(function(){
+  $(".titolo").click(function(){
+    $(this).parent().find(".descrizione").slideToggle("slow");
+    if($(this).css("background-color") == "rgb(218, 237, 239)")
+    {
+      $(this).parent().find(".descrizione").css("background-color","#daedef");
+      $(this).parent().find(".descrizione").css("border","2px solid blue");
+      $(this).css("background-color","blue");
+      $(this).css("color","white");
+    }else{
+      $(this).removeAttr("style");
+    }
+  });
+
+  $(".descrizione").mouseenter(function(){
+    $(this).find("p").css("font-size","22px");
+  });
+
+  $(".descrizione").mouseleave(function(){
+      $(this).find("p").css("font-size","18px");
+  });
+
+});
+
+
+
+
+
+
+$(function() {
+
+  var visible = false;
+  $('div.titolo').click(function(){
+    if(!visible) {
+      $(this).next().slideDown()
+      .css({
+        'background-color' : '#daedef',
+        'border-style' : 'solid',
+        'border-color' : 'blue'
+      });
+      $(this).css({
+        'background-color' : 'blue',
+        'color' : 'white'
+      });
+      visible = true;
+    }
+    else {
+      $(this).next().slideUp()
+      $(this).css({
+        'background-color' : '#daedef',
+        'color' : 'black'
+      });
+      visible = false;
+    }
+  });
+
+  $('div.descrizione p').hover(function(){
+    $(this).css('font-size', '19px');
+  },
+  function() {
+    $(this).css('font-size', '18px');
+  });
+
+
+
+});
+
+
+
+
+$(document).ready(function() {
+  $(".titolo").click(function() {
+    $(this).next().slideToggle();
+    if($(this).css("background-color") == "rgb(0, 0, 255)") {
+      $(this).css("background-color", "#daedef");
+      $(this).css("color", "#000");
+      $(this).next().removeAttr("css");
+      $(this).next().removeAttr("css");
+    }
+    else {
+      $(this).next().css("background-color", $(this).css("background-color"));
+      $(this).next().css("border", "1px solid blue");
+      $(this).css("background-color", "blue");
+      $(this).css("color", "white");
+    }
+
+  });
+  $(".descrizione").hover(function() {
+    $(this).children(":first").css("font-size", "25px");
+  }, function() {
+    $(this).children(":first").css("font-size", "18px");
+  });
+});
+
+
+
+$(document).ready(function(){
+  $("div.titolo").click(function(){
+
+    var bColor = $(this).css("background-color");
+    var nextDiv = $(this).next("div.descrizione");
+    if(bColor == "rgb(0, 0, 255)") { // blue
+      nextDiv.css({"background-color": "white", "border": "none"});
+      $(this).removeAttr("style");
+    }
+    else {
+      nextDiv.css({"background-color": bColor, "border": "3px solid blue"});
+      $(this).css({"background-color": "blue", "color": "white"});
+    }
+
+    nextDiv.animate({
+         height: 'toggle'
+     });
+
+  });
+
+  $("div.descrizione").hover(function(){
+      var pElement = $(this).children("p");
+      pElement.css("font-size", "23px");
+     }, function(){
+       var pElement = $(this).children("p");
+       pElement.css("font-size", "18px");
+ });
+
+});
+
+
+$(document).ready(function(){
+    $(".titolo").click(function(){
+
+        if($(this).css("background-color") == "rgb(218, 237, 239)"){
+          $(this).next().css("background-color", "#daedef");
+          $(this).next().css("border", "2px solid blue");
+          $(this).css("background-color", "blue");
+          $(this).css("color", "white");
+        }else{
+            $(this).next().css("background-color", "white");
+            $(this).next().css("border", "none");
+            $(this).css("background-color", "#daedef");
+            $(this).css("color", "black");
+        }
+        $(this).next().slideToggle();
+
+    });
+
+    $(".descrizione").hover(function(){
+      $(this).children(":first").css("font-size","20px");
+      }, function(){
+    $(this).children(":first").css("font-size","18px");
+  });
+});

@@ -1,0 +1,44 @@
+body
+{
+  font-size: 100%;
+  font-family: Arial, sans-serif;
+}
+
+img{
+	display: block;
+	margin: auto;
+	width: 10%;
+	-webkit-filter: blur(2px);
+	filter: blur(2px);
+}
+
+form{
+	width: 90%;
+	background-color: lightgreen;
+	border: 2px darkgreen solid;
+	border-radius: 10px;
+	box-shadow: lightgray 20px -20px 10px;
+	margin: 10px;
+	padding: 20px;
+}
+
+label{
+  font-size: 120%;
+}
+
+input.bottone{
+  background-color: darkgreen;
+  color: white;
+  font-size: 150%;
+  border-radius: 10px;
+  padding: 10px;
+  -webkit-transition: background-color 3s ;  /* Safari */
+  transition: background-color 3s ;
+}
+
+
+input.bottone:hover{
+  background-color: purple;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+}

@@ -1,0 +1,73 @@
+body{
+	font-family:"Arial",Sans-serif;
+	font-size: 100%;
+}
+
+header#site_header{
+	width: 96%;
+	margin: 1%;
+	padding: 1%;
+	background-color: white;
+	color: blue;
+	border: 2px solid blue;
+	text-align: center;
+	border-radius: 15px;
+	font-size: 130%;
+}
+
+nav {
+	margin: 1%;
+	width: 98%;
+	text-align: center;
+}
+
+nav ul li{
+	display: inline;
+	font-size: 80%;
+}
+
+nav ul li a {
+	text-decoration: none;
+
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+	color: white;
+	background-color: darkblue;
+}
+
+nav ul li a:visited {
+	text-decoration: none;
+	color: red;
+
+}
+
+aside{
+	float: right;
+	width: 16%;
+	padding: 1%;
+	margin: 1%;
+	color: blue;
+	font-size: 80%;
+}
+
+section{
+	width: 76%;
+	padding: 1%;
+	margin: 1% 21% 1% 1%;
+}
+
+footer{
+	font-size: 80%;
+	margin: auto;
+    color: blue;
+	width: 80%;
+}
+
+.article_header{
+   text-align: center;
+   color: blue;
+   font-weight: bold;
+}
