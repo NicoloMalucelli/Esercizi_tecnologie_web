@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+h1{
+    font-weight: bold;
+    color: green;
+    text-align: center;
+    border: 2px solid green;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin: 25px 5% 0;
+    padding: 15px 0;
+    width: 90%;
+}
+
+form{
+    margin-top: 20px;
+}
+
+legend{
+    color: green;
+    text-align: center;
+}
+
+label{
+    color: green;
+    text-align: left;
+}
+
+input{
+    height: 100%;
+    width: 100%;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 2px solid green;
+}
+
+input[type="submit"]{
+    color: white;
+    background-color: green;
+    padding: 5px 0;
+    margin-top: 5px;
+}

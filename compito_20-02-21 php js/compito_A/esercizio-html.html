@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>Esercizio html</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Iscrizione</h1>
+        </header>
+        <form action="action.php" method="get">
+            <fieldset>
+                <legend>Informazioni Personali:</legend>
+                <label>Nome:*<input id="nome" name="nome" type="text" placeholder="Nome" required></label>
+                <label>Cognome:*<input id="cognome" name="cognome" type="text" placeholder="Cognome" required></label>
+                <label>Data di nascita:<input id="dataNascita" name="dataNascita" type="date" min="1900-01-01"></label>
+            </fieldset><fieldset>
+                <legend>Informazioni aggiuntive:</legend>
+                <label>Scegli un colore<input id="colore" name="colore" type="color" value="#ff0000"></label>
+                <p>Oppure scegli dalla lista:</p>
+                <label><input type="radio" id="rosso" name="radio-colore" value="Rosso" checked>Rosso</label>
+                <label><input type="radio" id="blu" name="radio-colore" value="Blu">Blu</label>
+                <label><input type="radio" id="verde" name="radio-colore" value="Verde">Verde</label>
+                <label><input type="radio" id="altro" name="radio-colore" value="Altro">Altro</label>
+            </fieldset>
+            <input type="submit" value="Invia">
+        </form>
+    </body>
+</html>
